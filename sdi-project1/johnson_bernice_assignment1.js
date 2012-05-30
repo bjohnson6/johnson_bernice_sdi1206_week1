@@ -46,20 +46,20 @@ console.log("Is it true we are ready to go on our trip now? " + trip);
 
 if (enoughGasMoney === true){
 	console.log("We have enough money for gas, now we can go get it.");
-	if(cash < costOfGas){
-		gasMoneyLeft = cash - costOfGas;
+	if(cash > costOfGas){
+	var	gasMoneyLeft = cash - costOfGas;
 		console.log("We will have $ " + gasMoneyLeft + " left after we buy gas, cool we can both get munster drinks now.");
 	}else{
         console.log("No munster drinks for us. darn.");
 	};
 
 }else{
-	if(trip === true) {
+	if (trip === true){
 		console.log("We are finally ready to drive to Washington D.C. now. YAY!");
 
 	}else{
-		("Looks like we still have to wait longer.");
-	};
+		console.log("Looks like we still have to wait longer.");
+	
 	console.log("Heading to the freeway now.");
 
 	};
