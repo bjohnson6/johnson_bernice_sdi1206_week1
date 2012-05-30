@@ -2,7 +2,7 @@
 //May 30, 2012
 //Deliverable 1
 
-alert("Day one of trip to Washington D.C.");
+alert("Day one of our trip to Washington D.C.");
 
 //Required Variables
 //string
