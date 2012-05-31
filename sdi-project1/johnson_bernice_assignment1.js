@@ -20,7 +20,6 @@ var timeToGetUp = "It\'s 7 am and my alarm clock is blowing up my iphone.", //st
     goodbye = "a big hug and kiss goodbye before my trip.", //string
     myHouse = "I am finally back at my house.", //string
     directions = "We print out the directions from our house to the Washington Hilton", //string
-    trip = true, //boolean
     costOfGas = 35, //number
     cash = 40,  //number
     enoughGasMoney = true,  //boolean
@@ -41,22 +40,22 @@ console.log("I walk " + daughterName + " to the school door and give her " + goo
 console.log(myHouse +  " Esther and I finished getting all our things packed for our trip today.");
 console.log(directions +  " then load up the car.");
 console.log("It looks like we need gas first. Gas will cost " + "$" + costOfGas + ".");
-console.log("We have " + "$" + cash + " cash.");
-console.log("Is it true we are ready to go on our trip now? " + trip); 
+console.log("We have " + "$" + cash + " cash."); 
 console.log("Is it true we have enough gas money? " + enoughGasMoney);
 
 if (enoughGasMoney === true) {
-	console.log("We have enough money for gas, now we can go get it.");
+	console.log("We have enough money for gas, now we can fill up the tank.");
 	if (cash > costOfGas){
 		gasMoneyLeft = cash - costOfGas;
-		console.log("We will have $ " + gasMoneyLeft + " left after we buy gas, cool we can both get munster drinks now.");
+		console.log("We will have $" + gasMoneyLeft + " left after we buy gas. Cool we can both get munster drinks now and drive to " + placeGoingTo + ".");
 	} else {
+	 
         console.log("No munster drinks for us. darn.");
 	};
 
 } else {
-	if (trip === true) {
-		console.log("We are finally ready to drive to Washington D.C. now. YAY!");
+	if (placeGoingTo !== "Washington") {
+		console.log("We are not ready to go.");
 
 	} else {
 		console.log("Looks like we still have to wait longer until we can go to" + placeGoingTo + "now.");
