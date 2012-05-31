@@ -60,9 +60,9 @@ if (enoughGasMoney === true){
 	}else{
 		console.log("Looks like we still have to wait longer until we can go to" + placeGoingTo + "now.");
 	};
-	
+console.log("We are on our way to the freeway!");	
 
-	};
+};
 
 
 	
