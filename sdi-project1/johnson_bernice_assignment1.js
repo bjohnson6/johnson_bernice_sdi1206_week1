@@ -45,7 +45,7 @@ console.log("Is it true we have enough gas money? " + enoughGasMoney);
 
 if (enoughGasMoney === true) {
 	        console.log("We have enough money for gas, now we can fill up the tank.");
-	if (cash > costOfGas){
+	   if (cash > costOfGas){
 		     gasMoneyLeft = cash - costOfGas;
 		     console.log("We will have $" + gasMoneyLeft + " left after we buy gas. Cool we can both get munster drinks now and drive to " + placeGoingTo + ".");
 	
