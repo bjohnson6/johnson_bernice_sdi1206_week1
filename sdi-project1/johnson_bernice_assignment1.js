@@ -42,8 +42,8 @@ console.log(myHouse +  " Esther and I finished getting all our things packed for
 console.log(directions +  " then load up the car.");
 console.log("It looks like we need gas first. Gas will cost " + "$" + costOfGas + ".");
 console.log("We have " + "$" + cash + " cash.");
-console.log("Is it true we have enough gas money? " + enoughGasMoney);
 console.log("Is it true we are ready to go on our trip now? " + trip); 
+console.log("Is it true we have enough gas money? " + enoughGasMoney);
 
 if (enoughGasMoney === true) {
 	console.log("We have enough money for gas, now we can go get it.");
