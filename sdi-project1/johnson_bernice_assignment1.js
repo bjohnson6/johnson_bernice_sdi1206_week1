@@ -32,6 +32,7 @@ var timeToGetUp = "It\'s 7 am and my alarm clock is blowing up my iphone.", //st
 ////console.log outputs
 
 console.log(timeToGetUp + " I swipe the snooze button and zzz for a minute and then think...It's vacation day YAY!");
+console.log("We are going to" + placeGoingTo+ ".");
 console.log("I get out of bed and wake up my daughter " + daughterName + "I get her dressed for school.");
 console.log(meAndEmma + " she will be taking to her dads house after school.");
 console.log(daughterName + " is all ready for school now " + getInCar);
