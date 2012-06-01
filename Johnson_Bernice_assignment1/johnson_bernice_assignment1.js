@@ -46,11 +46,11 @@ console.log("Is it true we have enough gas money? " + enoughGasMoney);
 if (enoughGasMoney === true) {
     console.log("We have enough money for gas, now we can fill up the tank.");
 	if (cash > costOfGas){
-    gasMoneyLeft = cash - costOfGas;
-    console.log("We will have $" + gasMoneyLeft + " left after we buy gas. Cool we can both get munster drinks now and drive to " + placeGoingTo + ".");
+       gasMoneyLeft = cash - costOfGas;
+       console.log("We will have $" + gasMoneyLeft + " left after we buy gas. Cool we can both get munster drinks now and drive to " + placeGoingTo + ".");
 	
 	} else {
-	console.log("No gas or munster drinks for us. darn.");
+	   console.log("No gas or munster drinks for us. darn.");
         
 	};
 
@@ -59,7 +59,7 @@ if (enoughGasMoney === true) {
     console.log("We are not ready to go to" + placeGoingTo);
 
 	} else {
-    console.log("Looks like we still have to wait longer until we can go to" + placeGoingTo + "now.");
+       console.log("Looks like we still have to wait longer until we can go to" + placeGoingTo + "now.");
     };
 	
 
